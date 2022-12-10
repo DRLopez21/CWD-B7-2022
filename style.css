@@ -1,0 +1,7 @@
+.collection {
+    margin: .10rem 0 3rem 0;
+    border: 5px solid #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}

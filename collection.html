@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Material and Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Collection</title>
+</head>
+<body class="black">
+    <div class="container">
+        <h2 class="lime-text">Collection</h2>
+
+        <!--Collecions-->
+        <h4 class="amber-text">Basic</h4>
+        <ul class="collection">
+            <li class="collection-item light-green darken-4 white-text">Dharl</li>
+            <li class="collection-item light-green darken-3 white-text">Dharl</li>
+            <li class="collection-item light-green darken-2 white-text">Dharl</li>
+            <li class="collection-item light-green darken-1 white-text">Dharl</li>
+        </ul>
+
+        <!--Links-->
+        <div class="collection">
+            <a href="" class="collection-item lime darken-1 white-text">Dharl</a>
+            <a href="" class="collection-item lime darken-2 white-text">Dharl</a>
+            <a href="" class="collection-item lime darken-3 white-text">Dharl</a>
+            <a href="" class="collection-item lime darken-4 white-text">Dharl</a>
+        </div>
+
+        <!--Floating Actions Button-->
+    <div class="fixed-action-btn toolbar">
+        <a href="#!" class="btn btn-floating btn-large blue">
+            <i class="material-icons">mode_edit</i>
+        </a>
+        <ul>
+        <li><a href="" class="deep-purple accent-2"><i class="material-icons">bluetooth</i></a></li> 
+            <li><a href="" class="pink accent-2"><i class="material-icons">call</i></a></li>
+            <li><a href="" class="ight-blue darken-4"><i class="material-icons">build</i></a</li> 
+            <li><a href="" class="purple accent-2"><i class="material-icons">camera</i></a></li>
+        </ul>
+    </div>
+</div>
+
+<br><br>
+        <!-- Responsive Image -->
+        <div class="containe"></div>
+    <section class="section">
+        <div class="row center">
+            <div class="col s12 m8 offset-m2 l6 offset-l3">
+                <div class="card-panel grey lighten-5 z-depth-1"><div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="images/img5.jpg" alt="" class="circle responsive-img">
+                    </div>
+                    <!-- Circular Image-->
+                    <div class="col s10">
+                        <span class="blackk-text">
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Responsive Embed -->
+        <div class="row">
+            <div class="col s12">
+                <div class="viddeo-container"><iframe width="687" height="388" src="https://www.youtube.com/embed/OXy8KCygTRU" title="Ako At Ang Aking Sambahayan Inc Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
+            </div>
+        </div>
+        
+        <video class="video">
+            <source src="movie.mp4" typed="video/mp4">
+        </video>
+    </section>
+
+    
+    <!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        //Floating Action Button Init
+            $('.fixed-action-btn').floatingActionButton({
+                toolbarEnabled: true,
+                hoverEnabled: false 
+});
+});
+
+
+</script>
+</body>
+</html>
+
