@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Material ICon-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <title>MEDIA</title>
+</head>
+<body class="black">
+    <nav class="pink">
+
+    </nav>
+
+    <!--Material Box-->
+    <div class="container">
+        <h3 class="white-text">Media -
+            (Materialbox)</h3>
+        <div class="row">
+            <div class="col s12 m4 hide-on-large-only">
+                <img src="images/des3.jpg" alt=""class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 m4 l6">
+                <img src="images/des6.jpg" alt=""class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 m4 l6">
+                <img src="images/des5.jpg" alt=""class="responsive-img materialboxed">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12">
+            <div class="slider">
+               <ul class="slides">
+                <li>
+                    <img src="images/coffee5.jpg" alt="">
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline</h3>
+                        <h5 class="light grey-text-lighten-3">
+                            Here's our small slogan
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/coffee2.jpg" alt="">
+                    <div class="caption left-align">
+                        <h3>This is our big Tagline</h3>
+                        <h5 class="light grey-text-lighten-3">
+                            Here's our small slogan
+                        </h5>
+                    </div>
+                </li>  <li>
+                    <img src="images/coffee.jpg" alt="">
+                    <div class="caption right-align">
+                        <h3>This is our big Tagline</h3>
+                        <h5 class="light grey-text-lighten-3">
+                            Here's our small slogan
+                        </h5>
+                    </div>
+                </li>
+               </ul> 
+            </div>
+        </div>
+    </div>
+   
+
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+    $(document).ready(function() {
+        //Materialbox init
+    $('.materialboxed').materialbox({
+        inDuration: 1000,
+        outDuration: 1000
+        });
+          //slider init 
+        $('.slider').slider({
+            indicators: true,
+            height: 500,
+            duration:1000,
+            interval: 1000
+    });
+});
+    </script>
+</body>
+</html>
